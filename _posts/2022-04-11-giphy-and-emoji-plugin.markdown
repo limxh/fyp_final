@@ -11,7 +11,7 @@ tags: ["plugins", "jekyll"]
 
 ## Emoji
 
-:blue_heart:
+:blue_heart::blue_heart:
 
 I am on FIRE!! :fire::fire:
 
