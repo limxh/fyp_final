@@ -3,6 +3,8 @@ layout: post
 title:  "A Quick guide to Markdown"
 date:   2022-04-11 14:33:23 +0800
 author: Lim Xin Hong
+published: true
+tags: jekyll guide
 ---
 
 Nearly all Markdown applications support the basic syntax outlined in John Gruber’s original design document. There are minor variations and discrepancies between Markdown processors.
