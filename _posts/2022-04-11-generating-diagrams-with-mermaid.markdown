@@ -5,7 +5,6 @@ date:   2022-04-11 14:33:23 +0800
 tags: ["plugins", "jekyll"]
 mermaid: true
 ---
-<h3>Sample 1 </h3>
 
 ## Sample 1
 
@@ -16,7 +15,6 @@ graph LR
     B-->D(Sad);
 </div>
 
-<h3>Sample 2 </h3>
 
 ## Sample 2
 

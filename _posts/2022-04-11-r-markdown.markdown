@@ -9,6 +9,6 @@ tags: ["plugins", "jekyll"]
 
 The source code of is file is located at the root directory, dataVisualiseWithRMD.Rmd
 
-![]({{"/../../assets/Figure1.png" | absolute_url}})
+![]({{"/assets/Figure1.png" | absolute_url}})
 
-![]({{"/../../assets/Figure2.png" | absolute_url}})
+![]({{"/assets/Figure2.png" | absolute_url}})
