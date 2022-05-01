@@ -213,7 +213,7 @@ The rendered output:
 
 * This is how you add images
 
-    ![logo](../images/images.jfif)
+    ![logo]({{"/assets/images.jfif" | absolute_url}})
 
 
 ## Code
