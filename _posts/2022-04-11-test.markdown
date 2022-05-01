@@ -5,10 +5,10 @@ date:   2022-04-11 14:33:23 +0800
 ---
 
 <video width="320" height="240" controls>
-  <source src="/assets/vid01.mp4" type="video/mp4">
+  <source src="assets/vid01.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 
-![logo](/assets/images.jfif)
+![logo](assets/images.jfif)
 
-![logo](/assets/1.jpg)
+![logo](assets/1.jpg)
