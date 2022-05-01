@@ -301,24 +301,24 @@ The rendered output:
 To add an image, add an exclamation mark (!), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title after the URL in the parentheses.
 
 ````
-![logo](/assets/images.jfif)
+![logo]({{"/assets/images.jfif" | absolute_url}})
 ````
 
 The rendered output:
 
-![logo](/assets/images.jfif)
+![logo]({{"/assets/images.jfif" | absolute_url}})
 
 ## Linking images
 
 To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
 
 ````
-[![logo](/assets/images.jfif)](https://www.macmillandictionary.com/dictionary/british/maple)
+[![logo]({{"/assets/images.jfif" | absolute_url}})](https://www.macmillandictionary.com/dictionary/british/maple)
 ````
 
 The rendered output:
 
-[![logo](/assets/images.jfif)](https://www.macmillandictionary.com/dictionary/british/maple)
+[![logo]({{"/assets/images.jfif" | absolute_url}})](https://www.macmillandictionary.com/dictionary/british/maple)
 
 ## Escaping characters
 
@@ -332,13 +332,6 @@ The characters you can escape includes \\, \`, \*, \_, \{\}, \[\], \<\>, \(\), \
 Many Markdown applications allow you to use HTML tags in Markdown-formatted text. This is helpful if you prefer certain HTML tags to Markdown syntax. For example, some people find it easier to use HTML tags for images. Using HTML is also helpful when you need to change the attributes of an element, like specifying the color of text or changing the width of an image.
 
 To use HTML, place the tags in the text of your Markdown-formatted file.
-
-## Video
-
-<video width="320" height="240" controls>
-  <source src="/assets/vid01.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
 
 ## Further information regarding markdown syntax
 
