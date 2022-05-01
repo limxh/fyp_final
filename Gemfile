@@ -18,8 +18,10 @@ gem 'jekyll-theme-hacker', '~> 0.2.0'
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-youtube"
-  gem "emoji_for_jekyll"
+  gem "jemoji"
   gem "jekyll-pdf-embed"
+  gem "jekyll-giphy"
+  gem 'jekyll-mermaid', '~> 1.0'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
