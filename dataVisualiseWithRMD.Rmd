@@ -1,0 +1,41 @@
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+```
+
+## Data visualisation Page
+
+```{r ggplot, echo=FALSE}
+
+
+data<-read.csv("../data/covid19-public-main/epidemic/cases_malaysia.csv")
+
+##print(data)
+
+p<- ggplot(data = data,
+                    mapping = aes(x = date,
+                          y = cases_new))
+
+p + geom_point(alpha = 0.3) +
+    labs(x = "Date", y = "Daily New Cases",
+         title = "Malaysia Daily New cases",
+         caption = "Source: Covid19-public-main")
+
+```
+
+```{r, echo=FALSE}
+
+cases_state<-read.csv("../data/covid19-public-main/epidemic/cases_state.csv")
+
+p<- ggplot(data = cases_state,
+                    mapping = aes(x = date,
+                          y = cases_new))
+
+p + geom_point(alpha = 0.3, mapping = aes(color = state)) + 
+    facet_wrap(~ state) +
+    labs(x = "Date", y = "Daily New Cases",
+         title = "Malaysia Daily New cases",
+         caption = "Source: Covid19-public-main")
+
+```

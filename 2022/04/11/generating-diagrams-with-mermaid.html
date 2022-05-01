@@ -6,6 +6,17 @@
     <link rel="stylesheet" href="/fyp_final/assets/css/style.css">
 
     
+        <script type="text/javascript"
+  src="https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js">
+</script>
+<script>
+$(document).ready(function() {
+    mermaid.initialize({
+        theme: 'forest'
+    });
+});
+</script>
+    
 </head><body><header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/fyp_final/">Maple Publish</a><nav class="site-nav">
@@ -23,45 +34,40 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <article class="post">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">Tag: #Programming</h1>
+    <h1 class="post-title p-name" itemprop="name headline">Generating Diagrams with Mermaid</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2022-04-11T14:33:23+08:00" itemprop="datePublished">
+        Apr 11, 2022
+      </time></p>
   </header>
 
-  <div class="post-content">
-    <ul>
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  <li>
-    <span class="post-meta">2022-04-11 14:33:23 +0800</span>
-    <h3>
-      <a class="post-link" href="/fyp_final/2022/04/11/a-quick-guide-to-markdown.html">
-        A Quick guide to Markdown
-      </a>
-      <h4> 
-        
-        <a class="post" href="programming">#programming</a>, 
-        
-        <a class="post" href="jekyll">#jekyll</a>
-        
-      </h4>
-    </h3></li>
-  
-  
-</ul>
-  </div>
+  <div class="post-content e-content" itemprop="articleBody">
+    <h3>Sample 1 </h3>
 
+<h2 id="sample-1">Sample 1</h2>
+
+<div class="mermaid">
+graph LR
+    A --- B
+    B--&gt;C[Happy]
+    B--&gt;D(Sad);
+</div>
+
+<h3>Sample 2 </h3>
+
+<h2 id="sample-2">Sample 2</h2>
+
+<div class="mermaid">
+    graph TD
+      B[peace]
+      B--&gt;C[fa:fa-ban forbidden]
+      B--&gt;D(fa:fa-spinner);
+      B--&gt;E(fa:fa-camera-retro perhaps?);
+</div>
+
+  </div><a class="u-url" href="/fyp_final/2022/04/11/generating-diagrams-with-mermaid.html" hidden></a>
 </article>
 
       </div>
