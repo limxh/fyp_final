@@ -12,3 +12,12 @@ Your browser does not support the video tag.
 ![logo](assets/images.jfif)
 
 ![logo](assets/1.jpg)
+
+[![FLipkart](/assets/1.jpg)](https://www.google.com/){:target="_blank"}
+
+[![FLipkart](/assets/1.jpg)]{:target="_blank"}
+
+{% assign image_files = site.static_files %}
+{% for myimage in image_files %}
+  {{ myimage.path }}
+{% endfor %}
