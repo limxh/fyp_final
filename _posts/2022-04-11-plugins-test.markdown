@@ -4,7 +4,7 @@ title:  "Test For various plugins"
 date:   2022-04-11 14:33:23 +0800
 ---
 
-## Let's watch some Yoututbe video
+## Let's watch some Youtube video
 
 {% youtube "https://youtu.be/fqFjuX4VZmU" %}
 
