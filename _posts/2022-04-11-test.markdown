@@ -17,6 +17,8 @@ Your browser does not support the video tag.
 
 [![FLipkart](/assets/1.jpg)]{:target="_blank"}
 
+<img src="assets/1.jpg" alt="Logo">
+
 {% assign image_files = site.static_files %}
 {% for myimage in image_files %}
   {{ myimage.path }}
