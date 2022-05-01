@@ -11,7 +11,7 @@ Your browser does not support the video tag.
 
 ![logo](assets/images.jfif)
 
-![logo](assets/1.jpg)
+![logo]({{"/assets/1.jpg" | absolute_url}})
 
 [![FLipkart](/assets/1.jpg)](https://www.google.com/){:target="_blank"}
 
