@@ -2,6 +2,7 @@
 layout: post
 title:  "Test For various plugins"
 date:   2022-04-11 14:33:23 +0800
+tags: ["plugins", "jekyll"]
 ---
 
 ## Let's watch some Youtube video
