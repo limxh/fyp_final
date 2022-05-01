@@ -28,7 +28,7 @@ twitter_username: jekyllrb
 github_username:  limxh
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
   - jekyll-youtube
